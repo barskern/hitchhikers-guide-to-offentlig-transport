@@ -15,7 +15,9 @@ FLAGS= --toc \
 	   --metadata papersize:letter \
 	   --metadata classoption:oneside \
 	   --metadata documentclass:article \
-	   --metadata secnumdepth:2
+	   --metadata secnumdepth:2 \
+	   --metadata geometry:margin=2.7cm \
+	   --metadata geometry:a4paper
 
 # Utmappe
 DEST= build
